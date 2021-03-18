@@ -79,15 +79,35 @@ body {
   margin-left: 20px;
 }
 
+.menu__right li:hover {
+  color: #00ffa2;
+  transition: all 0.3s;
+}
+
+.boxcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 240px;
+}
 .box {
   display: flex;
   justify-content: center;
-  padding-top: 180px;
+  align-items: center;
+  background-color: black;
+  padding: 20px;
+  height: 50px;
+  border-radius: 6px;
+}
+
+.box__title {
+  color: white;
 }
 
 .box__color {
   margin-left: 4px;
   font-weight: 600;
+  color: #00ffa2;
 }
 
 button {
